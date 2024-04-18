@@ -8,7 +8,7 @@ I added some course examples from my Microsoft courses in the [Coursecontent](ht
  - Much more...
 
 
-For Azure App Serive related demos, clone or fork [Slots](https://github.com/sayedimac/slots)
+For Azure App Service related demos, clone or fork [Slots](https://github.com/sayedimac/slots)
  1. Create an App Service
  2. Configure an [Environment variable](https://learn.microsoft.com/en-us/azure/app-service/configure-common?tabs=portal#configure-app-settings) for each of the custom properties in the appsettings.json file in the root of the repo (dbconn, site, colour and auth - don't forget to save 😉)
  3. Create a second [deployment Slot](https://learn.microsoft.com/en-us/azure/app-service/deploy-staging-slots?tabs=portal) - make sure to copy the config of the Production slot, else you will have to recreate the fields as opposed to just setting new values (both slots will merely render the appsettings.json file settings if not set in the app service slots)
